@@ -1,0 +1,600 @@
+10:54:29.192 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 12192 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+10:54:29.250 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+10:54:44.790 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:54:44.810 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:54:44.811 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+10:54:44.884 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+10:54:45.139 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:55:04.695 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+10:55:08.402 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+10:55:08.419 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+10:55:09.081 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+10:55:09.798 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:55:09.798 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+10:55:09.877 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616122509084'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+10:55:09.878 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+10:55:09.878 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+10:55:09.882 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@35e357b
+10:55:20.927 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+10:55:24.865 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+10:55:24.911 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+10:55:25.027 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+10:55:25.443 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+10:55:25.544 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:55:25.560 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+10:55:25.607 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 61.619 seconds (JVM running for 67.8)
+10:55:27.059 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616122509084 started.
+10:56:43.150 [Thread-116] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616122509084 paused.
+10:56:43.157 [Thread-116] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616122509084 shutting down.
+10:56:43.157 [Thread-116] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616122509084 paused.
+10:56:43.159 [Thread-116] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616122509084 shutdown complete.
+10:56:43.159 [Thread-116] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+10:56:43.187 [Thread-116] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+10:56:58.450 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 5548 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+10:56:58.459 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+10:57:02.241 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:57:02.251 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:57:02.251 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+10:57:02.259 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+10:57:02.390 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:57:08.283 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+10:57:10.999 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+10:57:11.018 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+10:57:11.885 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+10:57:11.902 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:57:11.903 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+10:57:11.948 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616122631887'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+10:57:11.948 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+10:57:11.948 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+10:57:11.950 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@61607ff0
+10:57:23.691 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+10:57:26.720 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+10:57:26.745 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+10:57:26.858 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+10:57:27.171 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+10:57:27.752 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:57:27.771 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+10:57:27.803 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 30.282 seconds (JVM running for 32.06)
+10:57:29.272 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616122631887 started.
+10:58:36.331 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:11:54.648 [Thread-63] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616122631887 paused.
+11:11:54.655 [Thread-63] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616122631887 shutting down.
+11:11:54.655 [Thread-63] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616122631887 paused.
+11:11:54.657 [Thread-63] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616122631887 shutdown complete.
+11:11:54.658 [Thread-63] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:12:01.735 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 13760 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+11:12:01.742 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+11:12:05.014 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:12:05.026 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:12:05.027 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+11:12:05.035 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+11:12:05.180 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:12:10.748 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:12:13.503 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+11:12:13.525 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+11:12:14.370 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+11:12:14.386 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:12:14.387 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+11:12:14.430 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616123534371'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+11:12:14.431 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+11:12:14.431 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+11:12:14.434 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2175d53f
+11:12:24.650 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:12:26.114 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:12:26.132 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:12:26.224 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:12:26.472 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+11:12:26.703 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:12:26.716 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+11:12:26.748 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 26.129 seconds (JVM running for 28.207)
+11:12:28.238 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616123534371 started.
+11:12:46.714 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:18:36.731 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616123534371 paused.
+11:18:36.739 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616123534371 shutting down.
+11:18:36.740 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616123534371 paused.
+11:18:36.747 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616123534371 shutdown complete.
+11:18:36.747 [Thread-56] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:18:36.765 [Thread-56] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:18:47.068 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 13976 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+11:18:47.075 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+11:18:50.418 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:18:50.429 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:18:50.429 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+11:18:50.439 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+11:18:50.569 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:18:56.115 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:18:59.123 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+11:18:59.141 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+11:18:59.939 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+11:18:59.956 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:18:59.956 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+11:18:59.998 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616123939942'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+11:18:59.998 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+11:18:59.998 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+11:19:00.000 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@448fa659
+11:19:09.666 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:19:11.071 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:19:11.089 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:19:11.185 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:19:11.437 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+11:19:11.655 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:19:11.668 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+11:19:11.700 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 25.614 seconds (JVM running for 27.341)
+11:19:13.120 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616123939942 started.
+11:19:37.202 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:22:01.568 [Thread-55] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616123939942 paused.
+11:22:01.583 [Thread-55] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616123939942 shutting down.
+11:22:01.583 [Thread-55] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616123939942 paused.
+11:22:01.588 [Thread-55] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616123939942 shutdown complete.
+11:22:01.590 [Thread-55] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:22:01.609 [Thread-55] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:22:48.718 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 6724 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+11:22:48.726 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+11:22:51.995 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:22:52.009 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:22:52.009 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+11:22:52.019 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+11:22:52.151 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:22:57.576 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:23:00.614 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+11:23:00.634 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+11:23:01.546 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+11:23:01.562 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:23:01.563 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+11:23:01.620 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616124181548'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+11:23:01.621 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+11:23:01.622 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+11:23:01.626 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@37f627d0
+11:23:11.967 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:23:13.423 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:23:13.442 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:23:13.543 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:23:13.794 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+11:23:14.022 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:23:14.036 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+11:23:14.064 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 26.465 seconds (JVM running for 28.409)
+11:23:15.622 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616124181548 started.
+11:23:21.072 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:25:30.015 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616124181548 paused.
+11:25:30.022 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616124181548 shutting down.
+11:25:30.023 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616124181548 paused.
+11:27:09.683 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 11012 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+11:27:09.729 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+11:27:13.480 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:27:13.491 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:27:13.491 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+11:27:13.501 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+11:27:13.631 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:27:19.276 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:27:22.214 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+11:27:22.231 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+11:27:23.007 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+11:27:23.025 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:27:23.025 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+11:27:23.070 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616124443009'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+11:27:23.070 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+11:27:23.071 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+11:27:23.073 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@303db609
+11:27:34.931 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:27:36.939 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:27:36.968 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:27:37.085 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:27:37.383 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+11:27:37.622 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:27:37.633 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+11:27:37.659 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 29.058 seconds (JVM running for 30.778)
+11:27:39.097 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616124443009 started.
+11:28:22.722 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:45:43.629 [Thread-58] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616124443009 paused.
+13:45:43.637 [Thread-58] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616124443009 shutting down.
+13:45:43.637 [Thread-58] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616124443009 paused.
+13:45:43.640 [Thread-58] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616124443009 shutdown complete.
+13:45:43.640 [Thread-58] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+13:45:43.656 [Thread-58] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:08:01.360 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 11896 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+14:08:01.368 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+14:08:04.732 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:08:04.744 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:08:04.744 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+14:08:04.754 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+14:08:04.890 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:08:11.099 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:08:15.253 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+14:08:15.275 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+14:08:16.202 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+14:08:16.226 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+14:08:16.226 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+14:08:16.276 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616134096205'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+14:08:16.278 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+14:08:16.279 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+14:08:16.286 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1f641fb7
+14:08:26.567 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:08:28.102 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:08:28.119 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+14:08:28.212 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:08:28.469 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+14:08:28.700 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:08:28.714 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:08:28.744 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 28.902 seconds (JVM running for 31.253)
+14:08:30.197 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616134096205 started.
+14:09:38.418 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:52:52.937 [Thread-60] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616134096205 paused.
+14:52:52.954 [Thread-60] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616134096205 shutting down.
+14:52:52.954 [Thread-60] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616134096205 paused.
+14:52:52.956 [Thread-60] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616134096205 shutdown complete.
+14:52:52.956 [Thread-60] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+14:52:52.969 [Thread-60] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:53:04.050 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 13924 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+14:53:04.057 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+14:53:07.781 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:53:07.792 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:53:07.793 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+14:53:07.801 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+14:53:07.937 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:53:13.720 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:53:16.990 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+14:53:17.008 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+14:53:17.851 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+14:53:17.870 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+14:53:17.871 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+14:53:17.916 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616136797853'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+14:53:17.916 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+14:53:17.917 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+14:53:17.920 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5b31a9e3
+14:53:28.231 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:53:29.645 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:53:29.663 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+14:53:29.757 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:53:30.009 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+14:53:30.249 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:53:30.264 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+14:53:30.291 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 26.928 seconds (JVM running for 29.688)
+14:53:31.797 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616136797853 started.
+14:53:52.917 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:08.146 [Thread-57] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616136797853 paused.
+15:38:08.152 [Thread-57] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616136797853 shutting down.
+15:38:08.153 [Thread-57] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616136797853 paused.
+15:38:08.154 [Thread-57] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616136797853 shutdown complete.
+15:38:08.155 [Thread-57] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+15:38:08.167 [Thread-57] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+15:38:57.137 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 12552 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+15:38:57.148 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+15:39:00.982 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:39:00.994 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:39:00.995 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+15:39:01.006 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+15:39:01.184 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:39:04.507 [main] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+15:39:04.538 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+15:53:39.945 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 4868 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+15:53:39.951 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+15:53:43.327 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:53:43.339 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:53:43.339 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+15:53:43.347 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+15:53:43.480 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:53:46.787 [main] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+15:53:46.820 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:12:19.240 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 13568 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+16:12:19.246 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+16:12:22.696 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:12:22.710 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:12:22.710 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:12:22.718 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+16:12:22.849 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:12:25.753 [main] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+16:12:25.780 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:13:16.432 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 11904 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+16:13:16.490 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+16:13:19.812 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:13:19.824 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:13:19.825 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:13:19.833 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+16:13:20.001 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:13:25.948 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:13:29.180 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+16:13:29.199 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+16:13:29.838 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:13:30.386 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:13:30.387 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:13:30.457 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616141609841'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:13:30.457 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+16:13:30.457 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:13:30.459 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3055f310
+16:13:41.219 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:13:42.926 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:13:42.963 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:13:43.077 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:13:43.404 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+16:13:43.858 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:13:43.872 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:13:43.901 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 28.546 seconds (JVM running for 30.57)
+16:13:45.317 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616141609841 started.
+16:14:10.957 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:41:12.272 [Thread-60] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616141609841 paused.
+16:41:12.279 [Thread-60] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616141609841 shutting down.
+16:41:12.279 [Thread-60] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616141609841 paused.
+16:41:12.283 [Thread-60] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616141609841 shutdown complete.
+16:41:12.284 [Thread-60] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+16:41:12.299 [Thread-60] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+16:41:23.685 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 4824 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+16:41:23.694 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+16:41:26.927 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:41:26.938 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:41:26.939 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:41:26.947 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+16:41:27.084 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:41:32.725 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:41:35.681 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+16:41:35.706 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+16:41:36.571 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:41:36.591 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:41:36.591 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:41:36.638 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616143296574'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:41:36.638 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+16:41:36.639 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:41:36.642 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@17ea3bc0
+16:41:47.475 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:41:48.995 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:41:49.013 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:41:49.108 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:41:49.387 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+16:41:49.610 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:41:49.626 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:41:49.656 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 27.439 seconds (JVM running for 29.423)
+16:41:51.280 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616143296574 started.
+16:42:08.075 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:47:21.190 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616143296574 paused.
+16:47:21.195 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616143296574 shutting down.
+16:47:21.195 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616143296574 paused.
+16:47:21.197 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616143296574 shutdown complete.
+16:47:21.198 [Thread-56] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+16:47:21.213 [Thread-56] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+16:47:32.889 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 14088 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+16:47:32.898 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+16:47:36.316 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:47:36.328 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:47:36.329 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:47:36.337 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+16:47:36.467 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:47:41.956 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:47:44.755 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+16:47:44.776 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+16:47:45.576 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:47:45.593 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:47:45.594 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:47:45.643 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616143665578'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:47:45.643 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+16:47:45.644 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:47:45.649 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1e033801
+16:47:56.684 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:47:58.155 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:47:58.176 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:47:58.274 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:47:58.526 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+16:47:58.747 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:47:58.761 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:47:58.791 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 26.997 seconds (JVM running for 29.64)
+16:48:00.314 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616143665578 started.
+16:48:15.538 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:56:11.004 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616143665578 paused.
+16:56:11.010 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616143665578 shutting down.
+16:56:11.010 [Thread-56] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616143665578 paused.
+16:56:11.015 [Thread-56] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616143665578 shutdown complete.
+16:56:11.016 [Thread-56] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+16:56:11.031 [Thread-56] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+16:56:18.175 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 4876 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+16:56:18.182 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+16:56:21.369 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:56:21.379 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:56:21.380 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:56:21.388 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+16:56:21.643 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:56:27.164 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:56:29.875 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+16:56:29.895 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+16:56:30.758 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:56:30.774 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:56:30.774 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:56:30.826 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616144190760'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:56:30.827 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+16:56:30.827 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:56:30.829 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2941631f
+16:56:43.501 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:56:45.039 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:56:45.057 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:56:45.149 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:56:45.460 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+16:56:45.721 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:56:45.736 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:56:45.764 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 28.56 seconds (JVM running for 30.543)
+16:56:47.329 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616144190760 started.
+16:56:55.486 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:07:36.837 [Thread-61] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616144190760 paused.
+17:07:36.846 [Thread-61] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616144190760 shutting down.
+17:07:36.846 [Thread-61] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616144190760 paused.
+17:07:36.847 [Thread-61] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616144190760 shutdown complete.
+17:07:36.848 [Thread-61] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+17:07:36.865 [Thread-61] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+17:07:44.290 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 3328 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+17:07:44.300 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+17:07:47.582 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:07:47.594 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:07:47.594 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+17:07:47.603 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+17:07:47.872 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:07:53.249 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+17:07:55.928 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+17:07:55.946 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+17:07:56.756 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+17:07:56.773 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:07:56.773 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+17:07:56.814 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616144876758'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+17:07:56.815 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+17:07:56.815 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+17:07:56.817 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2a79da3a
+17:08:06.786 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:08:08.210 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:08:08.229 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:08:08.325 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:08:08.571 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+17:08:08.793 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:08:08.806 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+17:08:08.835 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 25.644 seconds (JVM running for 27.297)
+17:08:10.322 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616144876758 started.
+17:08:13.885 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:13:26.473 [Thread-55] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616144876758 paused.
+17:13:26.479 [Thread-55] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616144876758 shutting down.
+17:13:26.479 [Thread-55] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616144876758 paused.
+17:13:26.540 [Thread-55] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler schedulerFactoryBean_$_admin-PC1616144876758 shutdown complete.
+17:13:26.541 [Thread-55] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+17:13:26.567 [Thread-55] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+17:26:57.538 [main] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on admin-PC with PID 7904 (D:\AsiaEcs\target\classes started by admin in D:\AsiaEcs)
+17:26:57.638 [main] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: cainiao,lazada,druid
+17:27:03.555 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:27:03.569 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:27:03.569 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+17:27:03.578 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.7.0_51\jre\bin;D:\tools\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\npm;D:\Program Files\VSCode\Microsoft VS Code\bin;.]
+17:27:03.888 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:27:09.702 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+17:27:12.925 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息 size=5334
+17:27:12.945 [main] INFO  c.r.p.c.CategoryCache - [info,58] - 加载分类信息完成
+17:27:13.947 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+17:27:13.967 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:27:13.968 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+17:27:14.019 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'admin-PC1616146033949'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+17:27:14.019 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+17:27:14.020 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+17:27:14.023 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1a6a4595
+17:27:25.413 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:27:26.805 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:27:26.825 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:27:26.963 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:27:27.206 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: insertUsingPOST_1
+17:27:27.432 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:27:27.450 [main] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+17:27:27.486 [main] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 32.739 seconds (JVM running for 37.023)
+17:27:29.018 [Quartz Scheduler [schedulerFactoryBean]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler schedulerFactoryBean_$_admin-PC1616146033949 started.
+17:27:36.961 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:27:38.248 [http-nio-8080-exec-1] INFO  c.r.f.w.c.BaseController - [saveExpressInfo,118] - 快递信息保存失败，异常为:org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+### The error may involve com.ruoyi.project.pack.mapper.PickPackMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert erp_express_delivery          ( id,             member_id,             delivery_no,             exp_type,             pay_type,                                       receiver_name,             receiver_mobile,                          receiver_province,             receiver_city,             receiver_expArea,             receiver_address,             sender_name,             sender_mobile,                          sender_province,             sender_city,             sender_expArea,             sender_address,                                                                 quantity,                                       goods_name,                                                                                                        order_code,             shipper_code,             logistic_code,             mark_destination,             origin_code,             origin_name,                                       sorting_code,             package_code,                                       Reason,             result_code )           values ( ?,             ?,             ?,             ?,             ?,                                       ?,             ?,                          ?,             ?,             ?,             ?,             ?,             ?,                          ?,             ?,             ?,             ?,                                                                 ?,                                       ?,                                                                                                        ?,             ?,             ?,             ?,             ?,             ?,                                       ?,             ?,                                       ?,             ? )
+### Cause: java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1; nested exception is java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+17:28:11.213 [http-nio-8080-exec-3] INFO  c.r.f.w.c.BaseController - [saveExpressInfo,118] - 快递信息保存失败，异常为:org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+### The error may involve com.ruoyi.project.pack.mapper.PickPackMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert erp_express_delivery          ( id,             member_id,             delivery_no,             exp_type,             pay_type,                                       receiver_name,             receiver_mobile,                          receiver_province,             receiver_city,             receiver_expArea,             receiver_address,             sender_name,             sender_mobile,                          sender_province,             sender_city,             sender_expArea,             sender_address,                                                                 quantity,                                       goods_name,                                                                                                        order_code,             shipper_code,             logistic_code,             mark_destination,             origin_code,             origin_name,                                       sorting_code,             package_code,                                       Reason,             result_code )           values ( ?,             ?,             ?,             ?,             ?,                                       ?,             ?,                          ?,             ?,             ?,             ?,             ?,             ?,                          ?,             ?,             ?,             ?,                                                                 ?,                                       ?,                                                                                                        ?,             ?,             ?,             ?,             ?,             ?,                                       ?,             ?,                                       ?,             ? )
+### Cause: java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1; nested exception is java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+17:31:44.139 [http-nio-8080-exec-6] INFO  c.r.f.w.c.BaseController - [saveExpressInfo,118] - 快递信息保存失败，异常为:org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+### The error may involve com.ruoyi.project.pack.mapper.PickPackMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert erp_express_delivery          ( id,             member_id,             delivery_no,             exp_type,             pay_type,                                       receiver_name,             receiver_mobile,                          receiver_province,             receiver_city,             receiver_expArea,             receiver_address,             sender_name,             sender_mobile,                          sender_province,             sender_city,             sender_expArea,             sender_address,                                                                 quantity,                                       goods_name,                                                                                                        order_code,             shipper_code,             logistic_code,             mark_destination,             origin_code,             origin_name,                                       sorting_code,             package_code,                                       Reason,             result_code )           values ( ?,             ?,             ?,             ?,             ?,                                       ?,             ?,                          ?,             ?,             ?,             ?,             ?,             ?,                          ?,             ?,             ?,             ?,                                                                 ?,                                       ?,                                                                                                        ?,             ?,             ?,             ?,             ?,             ?,                                       ?,             ?,                                       ?,             ? )
+### Cause: java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+; uncategorized SQLException; SQL state [HY000]; error code [1366]; Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1; nested exception is java.sql.SQLException: Incorrect integer value: 'AS0000000004' for column 'delivery_no' at row 1
+17:34:43.089 [Thread-57] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616146033949 paused.
+17:34:43.094 [Thread-57] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler schedulerFactoryBean_$_admin-PC1616146033949 shutting down.
+17:34:43.094 [Thread-57] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler schedulerFactoryBean_$_admin-PC1616146033949 paused.
